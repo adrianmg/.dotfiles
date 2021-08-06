@@ -85,3 +85,7 @@ function parse_git_dirty {
 }
 # PROMPT: colors
 export PS1="\[\e[36m\]\W\[\e[93m\]\`parse_git_branch\` \[\033[39m\]➜ "
+
+# This loads nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"

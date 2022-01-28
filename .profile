@@ -5,8 +5,9 @@ export PATH="$HOME/bin:/usr/local/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # RVM available in PATH
 
 # RUN APPS
-alias code="/Applications/Visual\ Studio\ Code\ -\ Insiders.app/Contents/Resources/app/bin/code"
+alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 alias calc='bc -l'
+#alias gh='/Applications/gh'
 
 # FOLDERS
 alias projects="cd $HOME/Projects"
@@ -32,6 +33,10 @@ alias gs="git status"
 alias gcm="git commit --message"
 alias gd="git diff"
 alias gp="git push"
+
+# GITHUB
+alias ghstart="$HOME/Projects/github/github/bin/server"
+alias github="cd $HOME/Projects/github/github"
 
 # LOOK ON BASH HISTORY
 if [[ -r "/usr/local/opt/mcfly/mcfly.bash" ]]; then
@@ -85,6 +90,9 @@ function parse_git_dirty {
 }
 # PROMPT: colors
 export PS1="\[\e[36m\]\W\[\e[93m\]\`parse_git_branch\` \[\033[39m\]➜ "
+
+# Love2D Editor
+alias love="/Applications/love.app/Contents/MacOS/love"
 
 # This loads nvm
 export NVM_DIR="$HOME/.nvm"

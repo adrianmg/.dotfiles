@@ -5,10 +5,15 @@ export PATH="$HOME/bin:/usr/local/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # RVM available in PATH
 export PATH="/opt/homebrew/bin:$PATH" #homebrew on Apple Silicon
 
+# bun.sh
+BUN_INSTALL="/Users/adrianmg/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
 # RUN APPS
 alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 alias calc='bc -l'
 #alias gh='/Applications/gh'
+
 
 # FOLDERS
 alias projects="cd $HOME/Projects"
@@ -33,6 +38,10 @@ alias gs="git status"
 alias gcm="git commit --message"
 alias gd="git diff"
 alias gp="git push"
+
+git config --global user.email "adrianmg@github.com"
+git config --global user.name "Adrian Mato"
+git config --global github.user "adrianmg"
 
 # LOOK ON BASH HISTORY
 eval "$(mcfly init bash)"

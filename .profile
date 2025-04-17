@@ -12,6 +12,9 @@ export PATH="/bin:$PATH"
 export PATH="/usr/sbin:$PATH"
 export PATH="/sbin:$PATH"
 
+# FNM (Fast Node Manager) environment
+eval "$(fnm env)"
+
 # bun.sh
 BUN_INSTALL="/Users/adrianmg/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"

@@ -1,11 +1,16 @@
 # PATH SETUP
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/.rvm/bin:$PATH" # RVM
+export PATH="/usr/local/go/bin:$PATH" # Go
+export PATH="/opt/homebrew/bin:$PATH" # Homebrew (Apple Silicon)
+export PATH="/Applications/Ghostty.app/Contents/MacOS:$PATH" # Ghostty
+export PATH="$HOME/.fnm:$PATH" # fnm (Node version manager)
 export PATH="/usr/local/sbin:$PATH"
-export PATH="$HOME/bin:/usr/local/bin:$PATH"
-export PATH="$PATH:$HOME/.rvm/bin" # RVM available in PATH
-export PATH="/opt/homebrew/bin:$PATH" #homebrew on Apple Silicon
-export PATH="$PATH:/usr/local/go/bin" #golang
-export PATH="/Applications/Ghostty.app/Contents/MacOS:$PATH" # ghostty terminal app
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/bin:$PATH"
+export PATH="/bin:$PATH"
+export PATH="/usr/sbin:$PATH"
+export PATH="/sbin:$PATH"
 
 # bun.sh
 BUN_INSTALL="/Users/adrianmg/.bun"

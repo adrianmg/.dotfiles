@@ -1,5 +1,6 @@
 # adrianmg config starts here
-theme = zenbones
+# theme = zenbones
+theme = rose-pine-dawn
 cursor-style = block
 macos-titlebar-style= tabs
 window-padding-x = 8

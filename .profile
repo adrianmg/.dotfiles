@@ -28,8 +28,6 @@ alias finder="open -a Finder ./"
 # colored folders
 export CLICOLOR=1
 ls --color=auto &> /dev/null && alias ls='ls --color=auto' ||
-# open folders without cd
-shopt -s autocd
 
 # WEB SIMPLE SERVER
 alias webserver="python -m SimpleHTTPServer 8000"

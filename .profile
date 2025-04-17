@@ -102,3 +102,6 @@ export PS1="\[\e[36m\]\W\[\e[93m\]\`parse_git_branch\` \[\033[39m\]➜ "
 # This loads nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+# get rid of zsh warning on kick-off
+export BASH_SILENCE_DEPRECATION_WARNING=1

@@ -5,6 +5,7 @@ export PATH="$HOME/bin:/usr/local/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # RVM available in PATH
 export PATH="/opt/homebrew/bin:$PATH" #homebrew on Apple Silicon
 export PATH="$PATH:/usr/local/go/bin" #golang
+export PATH="/Applications/Ghostty.app/Contents/MacOS:$PATH" # ghostty terminal app
 
 # bun.sh
 BUN_INSTALL="/Users/adrianmg/.bun"
